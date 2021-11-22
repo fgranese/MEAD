@@ -2,7 +2,7 @@
 MEAD is a framework for evaluating detectors based on several attack strategies. 
 
 ### Current package structure
-1. The files with the adversarial samples can be found <a href="https://drive.google.com/drive/folders/1w-Qplh5dwLuKhlv4FmF3qYaLDN69rmDA?usp=sharing">here</a>.
+1. The files with the adversarial samples can be found <a href="">here</a>.
 2. The features has been created by executing this <a href="">code</a>. 
 ```
 Package

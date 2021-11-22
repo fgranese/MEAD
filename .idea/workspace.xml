@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e907b3d3-2edc-4b9a-b05b-0e30c9e813cb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Freeze Requirements File" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="36ce51a4-6845-4c1e-bf34-f6f890e41d6d" />
+  <component name="ProjectId" id="218nfgT1ZyOm6SfmnB8zJQCmz7S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/adv_data/cifar10" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/adv_data/cifar10" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e907b3d3-2edc-4b9a-b05b-0e30c9e813cb" name="Default Changelist" comment="" />
+      <created>1637331686486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637331686486</updated>
+      <workItem from="1637331687514" duration="12621000" />
+      <workItem from="1637490009885" duration="3593000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="104" key="#Deployment" timestamp="1637340280558">
+      <screen x="0" y="25" width="1440" height="833" />
+    </state>
+    <state x="320" y="104" key="#Deployment/0.25.1440.833/1440.0.1680.1050@0.25.1440.833" timestamp="1637340280558" />
+    <state x="229" y="77" key="SettingsEditor" timestamp="1637340428795">
+      <screen x="0" y="25" width="1440" height="833" />
+    </state>
+    <state x="229" y="77" key="SettingsEditor/0.25.1440.833/1440.0.1680.1050@0.25.1440.833" timestamp="1637340428795" />
+    <state x="626" y="175" key="ftp.server.browser" timestamp="1637340278871">
+      <screen x="0" y="25" width="1440" height="833" />
+    </state>
+    <state x="626" y="175" key="ftp.server.browser/0.25.1440.833/1440.0.1680.1050@0.25.1440.833" timestamp="1637340278871" />
+  </component>
+</project>
