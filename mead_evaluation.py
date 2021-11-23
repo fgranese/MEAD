@@ -50,12 +50,15 @@ def collect_decision(args, method_name, thrs_size=200):
         # Compute whether the adversarial examples successfully fools the target classifier or not, and save the decision
         correct.append(get_statistics(dataset=args.dataset, X_adv=X_test_adv, device=args.device))
         # Download whether this is an adversarial or a natural sample
-        labels = np.load('{}{}/{}/evaluation/labels_{}{}_all.npy'.format(features_dir, method_name, args.dataset, args.dataset, attack))
+        if method_name == 'fs':
+            labels = np.concatenate((np.zeros(len(X_test_adv),), np.ones(len(X_test_adv),)))
+        else:
+            labels = np.load('{}{}/{}/evaluation/labels_{}{}_all.npy'.format(features_dir, method_name, args.dataset, args.dataset, attack))
 
         # Download the detector's output (distance or probability)
         probs = np.load('{}{}/{}/evaluation/probs_{}{}_all.npy'.format(features_dir, method_name, args.dataset, args.dataset, attack))
 
-        # For FS and MagNet, it outputs uniquely one distance. For the others, it outputs 2 : one from the point of view of the natural decision (i.e. the value is big is the samples is susceptible to be natural), and one from the point of view of the adversarial decision (i.e. the value is big if the sample is susceptible to be adversarial)
+        # For FS and MagNet, it outputs uniquely one distance. For the others, it outputs 2 values : one from the point of view of the natural decision (i.e. the value is big is the samples is susceptible to be natural), and one from the point of view of the adversarial decision (i.e. the value is big if the sample is susceptible to be adversarial)
         if method_name == 'fs':
             proba = probs
         elif method_name == 'magnet':
@@ -63,11 +66,6 @@ def collect_decision(args, method_name, thrs_size=200):
                 proba = probs[1]
             else:
                 proba = probs[0]
-        # LID actually label the natural examples as 1 and adversarial one as 0, so we have to reverse it.
-        elif method_name == 'lid':
-            labels = 1 - labels
-            proba = probs[:, 1]
-            proba = 1 - proba
         else:
             proba = probs[:, 1]
 
