@@ -2,8 +2,7 @@
 MEAD is a framework for evaluating detectors based on several attack strategies. 
 
 ### Current package structure
-1. The files with the adversarial samples can be found <a href="https://mega.nz/folder/iC5SGISA#nmnG4J5NhT9RYPR8NcLWpw">here</a>.
-2. The features have been created by executing this <a href="https://github.com/aldahdooh/detectors_review">code</a>. 
+The files with the adversarial samples and the features have been created by executing this <a href="https://github.com/aldahdooh/detectors_review">code</a>. 
 ```
 Package
 MEAD/
